@@ -1,0 +1,20 @@
+# VERSION 1.0f
+circuits/sr-flip-flop.pgepng
+sr-flip-flop
+IC
+in S
+out Q
+in R
+out !Q
+ic BTN 271,291
+ic NOR 398,295
+ic BULB 503,296
+ic BTN 270,357
+ic NOR 395,367
+ic BULB 500,368
+n 0:0 4:0
+n 3:0 1:0
+n 4:0 1:1
+n 1:0 2:0
+n 1:0 4:1
+n 4:0 5:0

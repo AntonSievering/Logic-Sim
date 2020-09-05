@@ -1,0 +1,37 @@
+# VERSION 1.0f
+circuits/1-bit-carry-save-add.pgepng
+1-bit-carry-save-add
+IC
+in d0
+out Light Bulb
+in d1
+out Light Bulb
+in cin
+ic BTN 183,67
+ic AND 302,79
+ic OR 395,121
+ic AND 297,156
+ic OR 466,169
+ic BULB 579,169
+ic BTN 175,185
+ic AND 295,232
+ic BULB 585,298
+ic XOR 477,300
+ic BTN 176,305
+ic XOR 364,308
+n 0:0 9:0
+n 0:0 1:0
+n 0:0 3:0
+n 10:0 1:1
+n 1:0 2:0
+n 3:0 2:1
+n 2:0 4:0
+n 6:0 3:1
+n 7:0 4:1
+n 4:0 5:0
+n 6:0 11:0
+n 6:0 7:0
+n 10:0 7:1
+n 9:0 8:0
+n 11:0 9:1
+n 10:0 11:1

@@ -1,0 +1,97 @@
+# VERSION 1.0f
+circuits/8-bit-add.pgepng
+8-bit-add
+IC
+in a7
+in a6
+out Light Bulb
+in a5
+out Light Bulb
+in a4
+in a3
+out Light Bulb
+in a2
+out Light Bulb
+in a1
+in a0
+out Light Bulb
+in b7
+out Light Bulb
+in b6
+in b5
+out Light Bulb
+in b4
+out Light Bulb
+in b3
+in b2
+out Light Bulb
+in b1
+in b0
+in cin
+ic BTN 162,-310
+ic BTN 160,-242
+ic BULB 531,-194
+ic BTN 161,-175
+ic Ccircuits\1-bit-carry-save-add.ic 372,-155
+ic BULB 533,-120
+ic BTN 161,-104
+ic Ccircuits\1-bit-carry-save-add.ic 373,-60
+ic BTN 162,-36
+ic BULB 533,-23
+ic BTN 160,29
+ic Ccircuits\1-bit-carry-save-add.ic 371,42
+ic BULB 534,79
+ic BTN 160,97
+ic Ccircuits\1-bit-carry-save-add.ic 371,148
+ic BTN 161,163
+ic BULB 531,185
+ic BTN 161,243
+ic Ccircuits\1-bit-carry-save-add.ic 371,254
+ic BULB 529,294
+ic BTN 161,315
+ic Ccircuits\1-bit-carry-save-add.ic 371,360
+ic BTN 162,380
+ic BULB 527,396
+ic BTN 164,447
+ic Ccircuits\1-bit-carry-save-add.ic 370,472
+ic BULB 528,506
+ic BTN 164,512
+ic Ccircuits\1-bit-carry-save-add.ic 368,575
+ic BTN 165,579
+ic BULB 528,612
+ic BTN 165,648
+ic BTN 164,715
+ic BTN 163,809
+n 0:0 4:0
+n 1:0 7:0
+n 4:0 2:0
+n 3:0 11:0
+n 17:0 4:1
+n 7:0 4:2
+n 4:1 5:0
+n 6:0 14:0
+n 20:0 7:1
+n 11:0 7:2
+n 7:1 9:0
+n 8:0 18:0
+n 10:0 21:0
+n 22:0 11:1
+n 14:0 11:2
+n 11:1 12:0
+n 13:0 25:0
+n 24:0 14:1
+n 18:0 14:2
+n 14:1 16:0
+n 15:0 28:0
+n 27:0 18:1
+n 21:0 18:2
+n 18:1 19:0
+n 29:0 21:1
+n 25:0 21:2
+n 21:1 23:0
+n 31:0 25:1
+n 28:0 25:2
+n 25:1 26:0
+n 32:0 28:1
+n 33:0 28:2
+n 28:1 30:0
