@@ -13,14 +13,13 @@
 class Engine : public PGEGui
 {
 private:
-	enum
+	enum place_t
 	{
 		MAINSCREEN = 0,
 		OPTIONS    = 1,
 		WORKING    = 2
 	};
-
-	enum
+	enum mode_t
 	{
 		M_VIEWING = 0,
 		M_ADDING = 1,
@@ -30,7 +29,7 @@ private:
 	};
 
 private:
-	std::string sVersion = "1.6f";
+	std::string sVersion = "1.61f";
 
 #ifdef USE_PYTHON_PNG_SAVING
 	std::string sSavingType = "Python";

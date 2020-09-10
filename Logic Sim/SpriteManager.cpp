@@ -5,7 +5,13 @@ SpriteManager::SpriteManager() noexcept
 	m_sprites = SpriteMap();
 }
 
-bool SpriteManager::contains(const std::string &sFilename) noexcept
+SpriteManager::~SpriteManager() noexcept
+{
+	for (std::pair<std::string, olc::Decal *> vEntry : m_sprites)
+		delete vEntry.second;
+}
+
+bool SpriteManager::contains(const std::string &sFilename) const noexcept
 {
 	return m_sprites.contains(sFilename);
 }

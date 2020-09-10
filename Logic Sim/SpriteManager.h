@@ -16,9 +16,10 @@ private:
 
 public:
 	SpriteManager() noexcept;
+	~SpriteManager() noexcept;
 
 public:
-	bool contains(const std::string &sFilename) noexcept;
+	bool contains(const std::string &sFilename) const noexcept;
 	void load(const std::string &sFilename) noexcept;
 	
 	olc::Decal *query(std::string sFilename) const noexcept;
